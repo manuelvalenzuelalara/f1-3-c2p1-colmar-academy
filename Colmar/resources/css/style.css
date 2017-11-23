@@ -1,0 +1,375 @@
+html{
+  font-family: source sans pro;
+}
+
+/*header*/
+header{
+  width: 100%;
+  height: 64px;
+  display: inline-flex;
+}
+.head{
+  height: 64px;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  color: dimgray;
+}
+.logo{
+  margin-left: 24px;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+}
+.logo .bold{
+  font-weight: bold;
+}
+nav{
+  margin-right: 24px;
+  display: inline-flex;
+}
+ul{
+  display: flex;
+}
+li{
+  margin-left: 16px;
+}
+
+/*fisrt section*/
+.learn{
+  width: 100%;
+  display: inline-flex;
+  background-color: lightgray;
+}
+.first{
+  display: inline-flex;
+}
+.picture{
+  margin: 32px 0px 32px 24px;
+}
+.picture img{
+  width: 100%;
+}
+.start{
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #505050;
+  font-weight: bold;
+  margin-left: 48px;
+  margin-right: 96px;
+}
+.start h1{
+  margin-left: 0px;
+  margin-bottom: 36px;
+  font-size: 45px;
+}
+.start h2{
+  font-size: 25px;
+  font-weight: normal;
+  margin-bottom: 36px;
+}
+.start mark{
+  background-color: #505050;
+  color: white;
+  width: 90%;
+  text-align: center;
+  height: 48px;
+  margin-left: 0px;
+  display: inline-flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+/*second section*/
+/*LEFT*/
+.keep{
+  width: 100%;
+  display: inline-flex;
+  background-color: ghostwhite;
+}
+.second{
+  display: inline-flex;
+  margin-left: 24px;
+  margin-top: 32px;
+  width: 100%;
+}
+.left{
+  display: inline-flex;
+  flex-direction: column;
+  width: 60%;
+  margin-right: 24px;
+}
+.left .guy img{
+  width: 100%
+}
+.left .guy{
+  width:100%;
+}
+.left .caption{
+  margin-top: 32px;
+  color: #505050;
+  margin-bottom: 32px;
+}
+.left .caption #it{
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+.left .caption #latin{
+  font-size: 28px;
+  line-height: 1.3;
+  margin-bottom: 32px;
+}
+.left .caption #emanuel{
+  font-weight: 20px;
+}
+/*RIGHT*/
+.right{
+  display: inline-flex;
+  flex-direction: column;
+  width: 40%;
+  border-left: 1px solid gainsboro;
+}
+.right .blocks{
+  display: block;
+}
+.date, .campus, .guest {
+  display: inline-flex;
+  margin-bottom: 16px;
+  width: 100%;
+  padding-bottom: 16px;
+  align-items: center;
+  line-height: 2;
+}
+.date{
+  margin-bottom: 16px;
+  border-bottom: 1px solid gainsboro;
+}
+.campus{
+  margin-bottom: 16px;
+  margin-top: 16px;
+  border-bottom: .5px solid gainsboro;
+}
+.guest{
+  margin-top: 16px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid gainsboro;
+}
+.date #orientation{
+  width: 35%;
+}
+.date #orientation img{
+  width: 100%;
+}
+.campus #map{
+  width: 35%;
+}
+.campus #map img{
+  width: 100%;
+}
+.guest #old{
+  width: 35%;
+}
+.guest #old img{
+  width: 100%;
+}
+figcaption#tres{
+  width: 226px;
+}
+figcaption#tres h3{
+  line-height: initial;
+}
+#uno h2, #dos h2, #tres h2{
+  font-weight: bold;
+  font-size: 26px;
+  color: #303030;
+}
+#uno h3, #dos h3, #tres h3{
+  font-size: 16px;
+  color: darkgrey;
+}
+
+#uno span, #dos span, #tres span{
+  color: dodgerblue;
+}
+
+/*THIRD SECTION*/
+main.learning{
+  width: 100%;
+  display: inline-flex;
+  background-color: gainsboro;
+}
+main.learning .third{
+  display: block;
+  width: 100%;
+  margin-left: 72px;
+  margin-right: 72px;
+}
+.title{
+  margin-top: 32px;
+  margin-bottom: 32px;
+  color: #505050;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+.boxes{
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.box{
+  display: grid;
+  margin: 0;
+  background-color: white;
+  width: 386px;
+  margin-bottom: 32px;
+}
+.box figure{
+  margin-bottom: 16px;
+}
+.box figure img{
+  width: 386px;
+  height: auto;
+}
+.box figcaption{
+  display: inherit;
+  margin-left: 16px;
+  margin-bottom: 24px;
+  height: 197px;
+}
+.box figcaption h1{
+  margin-left: inherit;
+  margin-bottom: 8px;
+  color: #606060;
+  font-weight: bold;
+  font-size: 32px;
+}
+.box figcaption h2{
+  margin-left: inherit;
+  margin-bottom: 8px;
+  color: #909090;
+  font-size: 24px;
+}
+.box figcaption h3{
+  margin-left: inherit;
+  color: #909090;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+/*FOUTH SECTION*/
+main.thesis{
+  background-color: ghostwhite;
+  width: 100%;
+  display: inline-flex;
+}
+main.thesis .fourth{
+  width: 100%;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.thesis .fourth .exhibit{
+  margin-top: 32px;
+  margin-bottom: 32px;
+  text-align: center;
+  font-size: 36px;
+  color: #606060;
+  font-weight: bold;
+}
+.thesis .fourth .intern{
+  width: 100%;
+  display: inline-flex;
+}
+.izq{
+  width: 60%;
+  margin-left: 0px;
+  margin-right: 24px;
+}
+.izq video{
+  width: 100%;
+  margin-bottom: 24px;
+}
+.izq h1{
+  color: #606060;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+.izq h2{
+  color: #909090;
+  font-size: 28px;
+  margin-bottom: 32px;
+}
+.der{
+  width: 40%;
+}
+.der .newyork {
+  display: block;
+}
+.der .newyork article{
+  display: inline-flex;
+  padding: 16px;
+  align-items: center;
+}
+.der .newyork figure{
+  width: 35%;
+  margin-right: 16px;
+}
+.der .newyork img{
+  height: auto;
+  width: 100%;
+}
+.der .newyork figcaption{
+  width: 65%;
+}
+.der .newyork figcaption h1{
+  font-size: 30px;
+  font-weight: bold;
+  color: #606060;
+  margin-bottom: 8px;
+}
+.der .newyork figcaption h2{
+  color: #909090;
+}
+.iphone{
+  background: gainsboro;
+}
+
+/*FOOTER*/
+main.footer{
+  background-color: ghostwhite;
+  width: 100%;
+  display: inline-flex;
+  border-top: 1px solid gainsboro;
+}
+main.footer .fifth{
+  display: inline-flex;
+  margin-top: 16px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 48px;
+  color: #909090;
+  width: 100%;
+  justify-content: space-between;
+}
+div.rights, div.terms{
+  margin: 0px;
+}
+
+
+/*MOBILE*/
+@media only screen and (max-width:500px){
+  html{
+    display: none;
+  }
+  body{
+    display: none;
+  }
+  header{
+    display: none;
+  }
+}
